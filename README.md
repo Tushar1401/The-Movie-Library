@@ -2,11 +2,9 @@
 
 Project Url [Create React App](https://github.com/facebook/create-react-app).
 
-## Screenshots
+## Screenshot
 
 ![image](./src/Images/web.png)
-
-![image](./src/Images/mobile.png)
 
 ### `npm start`
 
