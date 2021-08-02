@@ -1,6 +1,6 @@
 # The Movie Library
 
-Project Url : max-width:  20px; [The Movie Library](http://Tushar1401.github.io/The-Movie-Library)
+Project Url : [The Movie Library](http://Tushar1401.github.io/The-Movie-Library)
 
 ## Screenshot
 
