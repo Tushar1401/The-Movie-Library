@@ -1,0 +1,118 @@
+.card {
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+    
+    /* min-width: 90vw; */
+    /* max-width: 90vw; */
+    max-width: 22.1vw;
+    min-height: 70vh;
+    /* max-height: 350px; */
+    /* min-height: 250px; */
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    margin-bottom: 3vw;
+  }
+  
+  .card:hover {
+    /* transform: scale(1.07); */
+  }
+  
+  .card__image{
+    /* max-width: 50px; */
+    /* max-height: 350px;  */
+    max-height: 250px;
+    
+  }
+
+  .card__image > img {
+    object-fit: fill;
+    /* background: center; */
+    /* min-width: 425px;
+    min-height: 275px; */
+    
+    max-width: 350px;
+    max-height: 350px;
+
+    min-height: 100%;
+    /* width: 100%; */
+  }
+  
+  .card__info {
+      /* margin-top: -9px; */
+      border-radius: 10px;
+      padding: 20px;
+      padding-top: 20px;
+      border: 1;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+    }
+
+    .card__button {
+        cursor: pointer;
+        color: #fff;
+        outline: none;
+        border: none;
+        font-weight: 700;
+        border-radius: 0.2vw;
+        /* padding-left: 2rem;
+        padding-right: 2rem; */
+        /* margin-right: 1rem; */
+        /* padding-top: 0.5rem; */
+        background-color: rgb(13, 90, 190);
+        /* padding-bottom: 0.5rem; */
+        padding: .5rem;
+
+        min-width: 200px;
+        max-width: 200px;
+
+      }
+      
+      .card__button:hover {
+        color: rgb(13, 90, 190);;
+        background-color: white;
+        border: 2px solid rgb(13, 90, 190);;
+        transition: all 0.2s;
+      }
+
+      .movie__details{
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+      }
+
+      p{
+          text-align: start;
+          margin-top: 0;
+          font-size: 14px;
+          margin-bottom: 10px;
+      }
+
+      .movie__details h2{
+          margin-top: 0;
+          margin-bottom: 10px;
+      }
+
+      @media only screen and (max-width: 425px) {
+          .card{
+              flex-direction: column;
+          }
+
+          .card__image > img {
+              max-width: 100%;
+          }
+
+      }
+
+      @media only screen and (max-width: 768px){
+          .card__button{
+              max-width: 330px;
+          }
+      }
